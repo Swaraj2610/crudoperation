@@ -1,0 +1,33 @@
+.card{
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    border: 1px solid black;
+    align-content: center;
+    margin:0 auto;
+    border-radius: 8px;
+}
+.card-header{
+    height: 30%;
+    background: rgb(10, 10, 10);
+    color: rgb(253, 253, 252);
+    text-align: center;
+    border-radius: 8px 8px 0px 0px;
+
+}
+
+.card-header p{
+    font-size:30px;
+}
+.container{
+    font-size: 20px;
+    padding:4px 16px;
+    background: gray;
+    border-radius: 0px 0px 8px 8px;
+
+
+}
+.container .btn-edit{
+    background: white;
+    font-weight: bold;
+}
